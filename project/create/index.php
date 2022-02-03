@@ -2,7 +2,7 @@
 
 //UniSender
 require_once("UniSender/UnisenderApi.php"); //подключаем файл класса
-$apikey="6p3j1sfawsw173x9daajgwczuwpszz9nzfzm46ee"; //API-ключ к вашему кабинету
+$apikey=""; //API-ключ к вашему кабинету
 
 
 //mails
@@ -22,10 +22,10 @@ foreach ($mails as $value) {
   //send
   $params = [
     'format' => 'json',
-    'api_key' => "6p3j1sfawsw173x9daajgwczuwpszz9nzfzm46ee",
+    'api_key' => "",
     'email' => $value,
     'sender_name' => "Andrey",
-    'sender_email' => "andrey.kazako75@gmail.com",
+    'sender_email' => "",
     'subject' => $subject,
     'body' => file_get_contents("message.html"),
     'list_id' => "1",
