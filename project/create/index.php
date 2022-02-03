@@ -6,7 +6,7 @@ $apikey="6p3j1sfawsw173x9daajgwczuwpszz9nzfzm46ee"; //API-ключ к вашем
 
 
 //mails
-$mails = array("andrey.kazako75@gmail.com", "kazakov.andrey01092003@gmail.com");
+$mails = array("");
 foreach ($mails as $value) {
   //file
   $ft = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'></head><body></body><script>window.location.href='http://10.0.2.4/sqlpast/index.php?mail=$value';</script></html>";
